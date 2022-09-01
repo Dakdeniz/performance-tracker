@@ -28,13 +28,13 @@ def test_roi():
 
     baker.make(
         DailyPerformance,
-        revenue=120,
+        revenue=121,
         cost=100,
         _quantity=quantity_20,
     )
     baker.make(
         DailyPerformance,
-        revenue=110,
+        revenue=111,
         cost=100,
         _quantity=quantity_10,
     )
